@@ -48,7 +48,7 @@ export class HomePage {
           params : {'fileName': image}
     }
 
-      this.fileTransfer.upload(image, encodeURI('http://192.168.88.12/upload/upload.php'), options)
+      this.fileTransfer.upload(image, encodeURI('http://192.168.0.105/ionic/upload.php'), options)
        .then((data) => {
          // success
          console.log(data);
